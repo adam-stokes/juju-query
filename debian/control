@@ -1,0 +1,25 @@
+Source: juju-query
+Section: admin
+Priority: extra
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Build-Depends: debhelper (>= 9),
+               dh-python,
+               pep8,
+               pyflakes,
+               python3-all,
+               python3-theblues,
+Standards-Version: 3.9.6
+Homepage: https://github.com/battlemidget/juju-query
+X-Python3-Version: >= 3.3
+Vcs-Browser: https://github.com/battlemidget/juju-query
+Vcs-Git: https://github.com/battlemidget/juju-query.git
+
+Package: juju-query
+Architecture: all
+Depends: gawk,
+         juju-core,
+         ${misc:Depends},
+         ${python3:Depends},
+         ${shlibs:Depends}
+Description: Juju query, utility for searching the charmstore
+ This package provides a Juju plugin for searching the charmstore.
