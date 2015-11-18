@@ -7,11 +7,18 @@ information about a charm (ie. README, charm location)
 
 # installation
 
+via APT:
 ```
 $ sudo apt-add-repository ppa:adam-stokes/juju-query
 $ sudo apt-get update
 $ sudo apt-get install juju-query
 ```
+
+via pip:
+```
+$ pip install juju-query
+```
+> Make sure juju-search can be located in your $PATH
 
 # usage
 
