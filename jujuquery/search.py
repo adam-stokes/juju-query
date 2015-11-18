@@ -171,6 +171,10 @@ class Query:
             print("")
             print(" juju deploy {}".format(item[0]))
             print("")
+            print("Get additional information:")
+            print("")
+            print(" juju info {}".format(item[0]))
+            print("")
 
 
 def parse_options(argv):

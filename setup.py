@@ -38,7 +38,8 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     entry_points={
         "console_scripts": [
-            "juju-search = jujuquery.search:main"
+            "juju-search = jujuquery.search:main",
+            "juju-info = jujuquery.info:main"
         ]
     }
 )
