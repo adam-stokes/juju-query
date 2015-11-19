@@ -1,4 +1,4 @@
-juju-query (0.0.1) wily; urgency=medium
+juju-query (0.0.9~ubuntu14.04.1) trusty; urgency=medium
 
   * Initial Release
 

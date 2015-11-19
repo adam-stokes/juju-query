@@ -31,10 +31,6 @@ setuptools.setup(
     install_requires=[
         "theblues",
     ],
-    setup_requires=[
-        "flake8",
-        "pep8"
-    ],
     packages=setuptools.find_packages(),
     entry_points={
         "console_scripts": [

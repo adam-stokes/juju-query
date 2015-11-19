@@ -1,12 +1,10 @@
 #!/usr/bin/make -f
 
-export PYBUILD_NAME=juju-query
-export PYBUILD_INSTALL_DIR=usr/share/juju-query
-export PYBUILD_INSTALL_ARGS_python3=--install-lib=usr/share/juju-query \
-	--install-data=usr/ \
-	--install-scripts=usr/share/juju-query \
-	--root=$(CURDIR)/debian/juju-query/ \
-	--no-compile -O0
+# export PYBUILD_NAME=juju-query
+# export PYBUILD_INSTALL_DIR=usr/share/juju-query
+# export PYBUILD_INSTALL_ARGS_python3=--install-scripts=usr/share/juju-query
+# 	--root=$(CURDIR)/debian/juju-query/ \
+# 	--no-compile -O0
 
 %:
 	dh $@ --with python3 --buildsystem=pybuild

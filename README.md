@@ -24,7 +24,7 @@ $ pip install juju-query
 
 ```
 $ juju search ghost
-$ juju info ghost
+$ juju info cs:~adam-stokes/trusty/ghost-6
 ```
 
 # license
