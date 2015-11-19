@@ -27,6 +27,13 @@ $ juju search ghost
 $ juju info cs:~adam-stokes/trusty/ghost-6
 ```
 
+# todo
+
+- [ ] get config options for charm
+- [ ] expose relations provided/required
+- [ ] add limiting
+- [ ] bundle search support
+
 # license
 
 The MIT License (MIT)
